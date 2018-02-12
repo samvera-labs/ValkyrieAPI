@@ -11,6 +11,9 @@ gem 'pg', '< 1.0.0'
 gem 'puma', '~> 3.11'
 
 gem 'valkyrie', github: 'samvera-labs/valkyrie', branch: 'without_hac'
+
+gem 'fast_jsonapi'
+gem 'pundit'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production

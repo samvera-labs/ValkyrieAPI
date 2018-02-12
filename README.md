@@ -1,24 +1,20 @@
-# README
+# Valkyrie API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple API server that uses the Valkyrie backend. There is no front end.
 
-Things you may want to cover:
+## Sample requests:
 
-* Ruby version
+```
+# Create
+curl -X POST -d"title=Jane Eyre" http://localhost:3000/v1/resources
 
-* System dependencies
+# Retrieve
+curl http://localhost:3000/v1/resources/f8f7cade-cecf-4da2-9d54-8478c08c99c6
+```
 
-* Configuration
+## TODO:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Make the handlers configurable
+* JSON-API
+* Document the API (with OAS?)
+* Support attached files
