@@ -2,6 +2,14 @@
 
 This is a simple API server that uses the Valkyrie backend. There is no front end.
 
+## Installing
+
+```
+docker-compose build
+docker-compose run web rake db:create db:migrate
+docker-compose up
+```
+
 ## Sample requests:
 
 ```
