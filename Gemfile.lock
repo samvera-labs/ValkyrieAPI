@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: d1e3302fa8dba0da4acdfd36beee55434e226743
+  revision: a6ab0510e651c81d0f1558c035695f36f628b431
   branch: 5-2-stable
   specs:
     actioncable (5.2.0.rc1)
@@ -41,7 +41,7 @@ GIT
       marcel (~> 0.3.1)
     activesupport (5.2.0.rc1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     rails (5.2.0.rc1)
@@ -66,8 +66,7 @@ GIT
 
 GIT
   remote: https://github.com/samvera-labs/valkyrie.git
-  revision: bec2b951e1f2f141ae5ae6f1edd5d988cf759a5c
-  branch: without_hac
+  revision: 14b9730ee5abb800f39340b74c3e706e1b01facb
   specs:
     valkyrie (0.1.0)
       active-fedora
@@ -193,7 +192,7 @@ GEM
       deprecation
       mime-types (> 2.0, < 4.0)
       mini_magick (>= 3.2, < 5)
-    i18n (0.9.4)
+    i18n (1.0.0)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
     inflecto (0.0.2)
@@ -216,7 +215,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.1.1)
+    loofah (2.2.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.0)

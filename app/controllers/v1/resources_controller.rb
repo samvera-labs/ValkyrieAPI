@@ -24,7 +24,9 @@ module V1
     private
 
     def after_create_success(resource, _change_set)
-      render json: resource.to_json
+      resource.member_ids = ['123', '456']
+      json_string = ResourceSerializer.new(resource).serialized_json
+      render json: json_string
     end
 
     def after_create_error(_resource, _change_set)

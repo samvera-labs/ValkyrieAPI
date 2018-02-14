@@ -10,7 +10,7 @@ gem 'pg', '< 1.0.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 
-gem 'valkyrie', github: 'samvera-labs/valkyrie', branch: 'without_hac'
+gem 'valkyrie', github: 'samvera-labs/valkyrie'
 
 gem 'fast_jsonapi'
 gem 'pundit'
